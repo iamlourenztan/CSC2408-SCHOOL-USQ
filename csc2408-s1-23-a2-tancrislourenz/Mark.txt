@@ -1,0 +1,195 @@
+-------------------------------------------------------------------
+CSC2408 Assignment 2 Marking Sheet                          S1 2023
+
+Student ID  : u1154063	
+Student Name: Cris Lourenz Tan
+
+
+===================================================================
+Marker, please place output of 
+  git log --pretty=format:"%h%x09%an%x09%ad%x09%s"
+here. Thanks! :)
+
+537bf35 Debian  Sat May 13 13:25:43 2023 +1000  This is the fifth commit.
+bfda9bf Debian  Fri May 12 10:56:17 2023 +1000  This is the fourth commit.
+7c02c12 Debian  Tue May 9 17:26:24 2023 +1000   this is the third commit.
+c5a9670 Debian  Sun May 7 16:07:17 2023 +1000   this is the second commit.
+3393057 Debian  Sun Apr 30 15:24:31 2023 +1000  Added files from the Assignment2 archive
+
+===================================================================
+
+
+-------------------------------------------------------------------
+TASK 1
+-------------------------------------------------------------------
+
+     1.a The student's repository is non-empty, so
+         content was pushed from local to the remote....[  2 /  2  ]
+     1.b As evidenced by git log above, the repo 
+         contains at least 5 commits, over a period of
+         at least two weeks.............................[  2 /  2  ]
+
+-------------------------------------------------------------------
+TOTAL: TASK 1                                           [  4 /  4  ]
+-------------------------------------------------------------------
+
+
+-------------------------------------------------------------------
+TASK 2
+-------------------------------------------------------------------
+
+    2.1 Files from ~/dailyingest are moved to byDate  ..[ 2 / 2   ]
+      - note, this can either be all upfront, or only
+        correct ones, with bad ones moved separately
+
+    2.2 byContributor/XZW contains symbolic links to XYZ's
+        audios in the byDate directory      ............[  2 / 2   ]
+
+    2.3 byTopics/ABC contains symbolic links to ABC
+        audios in the byDate directory      ............[  2 / 1   ]
+
+    2.4 Alternative directories can be provided as 
+        arguments; if none given, defaults are used  ...[  0 / 1   ]
+
+    2.5 Check that target directories exist and are 
+        writable; otherwise script creates them  .......[  1 / 1   ]
+
+    2.6 - Only files with a "correct" filename are placed
+          in "byDate"; incorrectly named files are moved
+          to "badfiles"                          .......[ 1 / 2   ]
+        - STDERR used for reporting bad file names .....[ 0.5 / 1   ]
+
+-------------------------------------------------------------------
+TOTAL: TASK 2                                           [ 8.5 / 10  ]
+-------------------------------------------------------------------
+
+
+-------------------------------------------------------------------
+TASK 3
+-------------------------------------------------------------------
+
+     3.1 Reading questions from source file
+         scripts reads pairs from input file  ..........[  2 / 2  ]
+     3.2 Presents all questions, gets user response ....[  2 / 2  ]
+     3.3 One attempt per word, and iterates to next ....[  1 / 1  ]
+     3.4 Able to end using 'exit'                 ......[  1 / 1  ]
+     3.5 Questions are numbered                    .....[  1 / 1  ]
+     3.6 Correct score is tracked and shown         ....[  1 / 1  ]
+     3.7 Elapsed time is printed when all done      ....[  1 / 1  ]
+     3.8 Extension1 - hint functionality works      ....[  3 / 3  ]
+     3.9 Extension2 - multiple attempts option works ...[  3 / 3  ]
+
+-------------------------------------------------------------------
+TOTAL: TASK 3                                           [  15 / 15  ]
+-------------------------------------------------------------------
+
+
+-------------------------------------------------------------------
+TASK 4
+-------------------------------------------------------------------
+     4.1 Markdown Document
+          Document compiles with pandoc ...............[  2 / 2   ]
+          Table correctly formatted ...................[  2 / 2   ]
+          .md document overall matches required format.[  2 / 2   ]
+                  
+     4.2 Bash Script
+          Checks that Students.txt and Marks.txt exist.[  0.5  / 0.5 ]
+          Checks that Students.txt and Marks.txt 
+          are readable ................................[  0.5  / 0.5 ]
+            Note: - can be 2 steps -e, -f or use -r
+                    single step
+                  - deduct 0.5 marks if script does
+                    not exit
+
+          Checks that Marks.txt is not empty .........[   1  / 1   ]
+            Note: - deduct 0.5 marks if script does
+                    not exit
+
+          Checks that reportTemplate.md exists ........[  1  / 1   ]
+            Note: - deduct 0.5 marks if script does
+                    not exit
+
+          Checks that OUTPUT directory exists .........[  1  / 1   ]
+            Note: - deduct 0.5 marks if script does
+                    not exit
+                                        
+          File(s) are read .............................[  2 / 2   ]
+          .md document per student is created (copy, 
+          etc) .........................................[  1 / 1   ]
+          Total marks is calculated ....................[  0.5 / 1   ]
+          Placeholder text is replaced by information 
+          in files correctly (sed)......................[  1 / 3   ]
+            Note: - Multiple methods are acceptable,
+                    with one or two loops, using grep
+                    and cut, etc.
+                  - Deduct 1 mark from Files read if 
+                    the first line is not skipped
+
+          .md documents compile correctly with output 
+          suppressed....................................[  2 / 2   ]
+            Note: - Deduct marks if PDF files not in
+                    the OUTPUT folder, if output or 
+                    errors not suppressed, or if not 
+                    compiled.
+
+          Intermediate files are deleted ...............[  2 / 2   ]
+                                        
+          Script produces output for the users that is 
+          informative at each step of the process.......[  2 / 2   ]
+                  
+      4.3 Code is well structured and commented ........[  2 / 2   ]
+                  
+-------------------------------------------------------------------
+TOTAL: TASK 4                                           [ 22.5  / 25  ]
+-------------------------------------------------------------------
+
+
+
+-------------------------------------------------------------------
+TASK 5
+-------------------------------------------------------------------
+
+      5.1 Created .tex document that compiles   ........[  1 / 1   ]
+
+      5.2 Title area ...................................[  1 / 1   ]
+
+      5.3 Section containing biography .................[  1 / 1   ]
+          
+      5.4 Section containing two subsections ...........[  1 / 1   ]
+
+      5.5 Maths subsection created .....................
+          Mathematics provided and extra maths correctly
+          formatted ....................................[  1 / 1  ]
+          
+          Table subsection created .. .................
+          Table provided and correctly formatted . .....[  1 / 1  ]
+          
+-------------------------------------------------------------------
+TOTAL: TASK 5                                           [  6 / 6   ]
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+TOTAL                                                   [  56 / 60  ]
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+
+Marker's Comments:
+
+Q2.4. alternative directories for audio and badfiles given as arguments are not used
+because the variables of these directories has been assigned before at line 11. So for line 27
+that stores the alternative directory will not be used at all.
+Q2.6. the bad files are not moved to badfiles directory. they are still in byDate directory.
+
+Q4.2. Grade, total grade and comments are not place in the placeholder properly.
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------
+

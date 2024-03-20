@@ -1,0 +1,2 @@
+date,time,ipaddress,downspeed,rainfall,temperature,pressure,uvindex
+"2022-02-01","16:45","192.168.0.5","28.42 Mbit/s","0.0mm","+35°C","1013 hPa","3"
